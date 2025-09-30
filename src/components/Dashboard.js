@@ -41,7 +41,7 @@ const Dashboard = ({name}) => {
 
     return(<div>
         {/* JS - String formatting */}
-        <p>{`Welcome ${name}`}</p>
+        <p>{`Greetings ${name}`}</p>
         <p>{apiData.title}</p>
         <span>Input Details:</span>
         <input type="text" onChange={handleNumChange} value={num}/>
